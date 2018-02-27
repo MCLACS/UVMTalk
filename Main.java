@@ -22,8 +22,8 @@ public class Main
         }
     }
     
-    public static IGrader getGrader()
+    private static IGrader getGrader()
     {
-        return new MeanGrader();
+        return new BestScoreGrader();
     }
 }

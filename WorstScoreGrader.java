@@ -1,5 +1,7 @@
 import java.util.*;
 
+// WARNING -- TEACHERS SHOULD NEVER USE GRADER!!
+
 public class WorstScoreGrader implements IGrader
 {    
     @Override

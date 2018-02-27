@@ -22,7 +22,7 @@ public class Main2
         }
     }
     
-    public static IGrader getGrader(String name) throws Exception
+    private static IGrader getGrader(String name) throws Exception
     {
         Class cls = Class.forName(name);
         return (IGrader)cls.newInstance();

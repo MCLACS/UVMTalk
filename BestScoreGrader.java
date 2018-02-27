@@ -1,5 +1,7 @@
 import java.util.*;
 
+// HEADS UP -- STUDENTS LOVE THIS GRADER!!
+
 public class BestScoreGrader implements IGrader
 {    
     @Override
